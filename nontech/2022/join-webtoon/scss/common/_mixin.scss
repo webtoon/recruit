@@ -1,0 +1,72 @@
+// border-radius
+@mixin border-radius($rad) {
+	-o-border-radius: $rad;
+	-ms-border-radius: $rad;
+	-moz-border-radius: $rad;
+	-webkit-border-radius: $rad;
+	border-radius: $rad;
+}
+// background-size
+@mixin background-size($size) {
+	-o-background-size: $size;
+	-ms-background-size: $size;
+	-moz-background-size: $size;
+	-webkit-background-size: $size;
+	background-size: $size;
+}
+// width,height,-o-background-size
+@mixin width-height-background-size($width-size,$height-size) {
+	width: $width-size;
+	height: $height-size;
+	background-size: $width-size $height-size;
+	background-repeat: no-repeat;
+}
+// clear
+@mixin clear {
+	&:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+}
+// ellipsis
+@mixin ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+@mixin ellp2 {
+	display: -webkit-box;
+	overflow: hidden;
+	word-wrap: break-word;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+// box-sizing
+@mixin box-sizing {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+// responsive_web
+@mixin mq_t($point) {
+	@if $point==1024 {
+		@media (max-width: 1024px) {
+			@content;
+		}
+	}
+}
+@mixin mq_m($point) {
+	@if $point==767 {
+		@media (max-width: 767px) {
+			@content;
+		}
+	}
+}
+@mixin mq_ms($point) {
+	@if $point==320 {
+		@media (max-width: 374px) {
+			@content;
+		}
+	}
+}
