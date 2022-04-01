@@ -1300,7 +1300,7 @@ html {
 }
 
 .popup_wrap .popup_content {
-	padding: 44px 60px 56px;
+	padding: 24px 60px 56px;
 }
 
 .popup_wrap .popup_content .notice_text {
@@ -1775,7 +1775,7 @@ html {
 		font-size: 16px;
 	}
 	.popup_wrap .popup_content {
-		padding: 44px 56px 48px;
+		padding: 16px 56px 48px;
 	}
 	.popup_wrap .popup_content .notice_text {
 		font-size: 14px;
@@ -2262,7 +2262,7 @@ html {
 		font-size: 13px;
 	}
 	.popup_wrap .popup_content {
-		padding: 24px 26px 32px;
+		padding: 8px 26px 32px;
 	}
 	.popup_wrap .popup_content .notice_text {
 		font-size: 12px;
