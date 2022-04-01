@@ -1262,7 +1262,7 @@ html {
 
 .popup_wrap .popup_title_box {
 	padding: 60px 60px 44px;
-	border-bottom: 1px solid #7e7983;
+	border-bottom: 1px solid #434359;
 	font-family: 'NanumSquareB';
 }
 
@@ -1301,6 +1301,13 @@ html {
 
 .popup_wrap .popup_content {
 	padding: 44px 60px 56px;
+}
+
+.popup_wrap .popup_content .notice_text {
+	font-size: 16px;
+	color: #6c6c80;
+	line-height: 28px;
+	margin-bottom: 44px;
 }
 
 .popup_wrap .popup_content dt {
@@ -1769,6 +1776,11 @@ html {
 	}
 	.popup_wrap .popup_content {
 		padding: 44px 56px 48px;
+	}
+	.popup_wrap .popup_content .notice_text {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 36px;
 	}
 	.popup_wrap .popup_content dt {
 		font-size: 18px;
@@ -2251,6 +2263,11 @@ html {
 	}
 	.popup_wrap .popup_content {
 		padding: 24px 26px 32px;
+	}
+	.popup_wrap .popup_content .notice_text {
+		font-size: 12px;
+		line-height: 18px;
+		margin-bottom: 24px;
 	}
 	.popup_wrap .popup_content dt {
 		font-size: 14px;
