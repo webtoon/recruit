@@ -379,6 +379,19 @@ html {
 	color: #f3f3f8;
 }
 
+.spot .end_text {
+	display: inline-block;
+	font-family: 'NanumSquareEB';
+	background-color: #06072c;
+	margin-top: 40px;
+	color: #828395;
+	font-size: 22px;
+	line-height: 72px;
+	height: 72px;
+	padding: 0 100px;
+	border-radius: 100px;
+}
+
 .spot .btn {
 	display: inline-block;
 	font-family: 'NanumSquareEB';
@@ -1134,7 +1147,7 @@ html {
 }
 
 .section_share .img_text {
-	margin-top: 12px;
+	margin-top: 49px;
 	background-image: url(../img/sp_common.png);
 	-webkit-background-size: 1770px 1726px;
 	background-size: 1770px 1726px;
@@ -1399,6 +1412,13 @@ html {
 	.spot .sub_text {
 		font-size: 14px;
 		line-height: 1.43;
+	}
+	.spot .end_text {
+		margin-top: 32px;
+		font-size: 20px;
+		line-height: 60px;
+		height: 60px;
+		padding: 0 72px;
 	}
 	.spot .btn {
 		margin-top: 32px;
@@ -1856,6 +1876,13 @@ html {
 	.spot .sub_text .line {
 		display: none;
 	}
+	.spot .end_text {
+		margin-top: 24px;
+		font-size: 18px;
+		line-height: 56px;
+		height: 56px;
+		padding: 0 64px;
+	}
 	.spot .btn {
 		margin-top: 24px;
 		font-size: 18px;
@@ -2197,7 +2224,7 @@ html {
 		letter-spacing: 1.92px;
 	}
 	.section_share .img_text {
-		margin-top: 8px;
+		margin-top: 0;
 		background-image: url(../img/sp_common.png);
 		-webkit-background-size: 1770px 1726px;
 		background-size: 1770px 1726px;
